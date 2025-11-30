@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AndesRobot Team</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <h1>AndesRobot Team</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#selector">Sections</a>
+            <a href="#team">Team Members</a>
+        </nav>
+    </header>
+
+    <!-- ================= HERO CAROUSEL ================= -->
+    <section class="hero-carousel" id="home">
+        <div class="carousel">
+            <div class="carousel-slide active" style="background-image: url('Pictuares/Main/Logo.jpeg');"></div>
+            <!--<div class="carousel-slide" style="background-image: url('Pictuares/Marta/');"></div>-->
+
+            <div class="carousel-overlay">
+                <h2>Applied Research in Robotics & AI</h2>
+                <p>Two universities, one team, building innovative robotic solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SECTION SELECTOR ================= -->
+    <section id="selector" class="section-selector" data-aos="fade-up">
+        <h2>Explore Our Work</h2>
+
+        <div class="selector-buttons">
+            <button data-section="gallery" class="selector-btn active">Gallery</button>
+            <button data-section="videos" class="selector-btn">Videos</button>
+            <button data-section="repos" class="selector-btn">Repositories</button>
+            <button data-section="team" class="selector-btn">Team Members</button>
+        </div>
+    </section>
+
+    <!-- ================= DYNAMIC CONTENT ================= -->
+    <section id="dynamic-content">
+
+        <!-- GALLERY -->
+        <div class="section-content active" id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <!-- <img src="Pictuares/Main/logo.png">-->
+                <img src="Pictuares/Robocup2025-Brazil/WhatsApp Image 2025-08-08 at 12.12.24_0ff65f36.jpg">
+                <img src="Pictuares/Robocup2025-Brazil/WhatsApp Image 2025-08-08 at 12.12.37_0168b4ec.jpg">
+                <img src="Pictuares/Robocup2025-Brazil/WhatsApp Image 2025-08-08 at 12.12.37_e51a652c.jpg">
+            </div>
+            <div class="button-wrapper">
+                  <a href="pages/fotos.html" class="btn-primary">Open Gallery</a>
+            </div>
+        </div>
+
+        <!-- VIDEOS -->
+        <div class="section-content" id="videos">
+            <h2>Videos</h2>
+            <div class="video-center">
+                <video controls width="100%">
+                  <source src="Videos/video1.mp4" type="video/mp4">
+                </video>
+                <div class="button-wrapper">
+                  <a href="pages/videos.html" class="btn-primary">Open Video Library</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- REPOSITORIES -->
+        <div class="section-content" id="repos">
+            <h2>Repositories & Publications</h2>
+
+            <div class="repo-card">
+                <h3>AndesRobot Main Repository</h3>
+                <p>Contains development code for locomotion, control and AI.</p>
+                <a href="#" target="_blank">Open Repository</a>
+            </div>
+
+            <div class="repo-card">
+                <h3>SLAM & Vision Module</h3>
+                <p>Algorithms for mapping, ORB-SLAM integration and perception.</p>
+                <a href="#" target="_blank">Open Repository</a>
+            </div>
+
+            <div class="repo-card">
+                <h3>Simulation Scenarios</h3>
+                <p>Custom simulation environments for robotics testing.</p>
+                <a href="#" target="_blank">Open Repository</a>
+            </div>
+            <div class="button-wrapper">
+                  <a href="pages/repos.html" class="btn-primary">Open Repositories Library</a>
+            </div>
+        </div>
+
+        <!-- TEAM MEMBERS -->
+        <div class="section-content" id="team">
+            <h2>Team Members</h2>
+            <section>
+              <h3>Leader</h3>
+              <div class="member-card">
+                  <img src="Pictuares/members/aleja.jpg" alt="Alejandra Pinzón" />
+                  <h3>M. Alejandra Pinzón Farfán</h3>
+                  <p><strong>Group Leader</strong></p>
+                  <p>Master’s student in Electronic Engineering – USTA Colombia; currently on exchange at UNAB, member of GED &amp; NERT</p>
+              </div>
+            </section>
+
+            <h3>Teachers</h3>
+            
+            <section class="team-grid">
+              
+              <div class="member-card">
+                    <img src="Pictuares/members/miguel.png" alt="Miguel Solis" />
+                    <h3>Miguel A. Solis</h3>
+                    <p>Professor &amp; Researcher – UNAB Chile</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/mateus.jpg" alt="Armando Mateus" />
+                  <h3>Armando Mateus Rojas</h3>
+                  <p>Professor &amp; Researcher – USTA Colombia</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/larenas.jpg" alt="Miguel Solis" />
+                  <h3>Roberto Larenas Ulloa</h3>
+                  <p>Professor &amp; Researcher – UNAB Chile</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/vladimir.jpg" alt="Vladimir Toro" />
+                  <h3>B. Vladimir Toro Tovar</h3>
+                  <p>Professor &amp; Researcher – USTA Colombia</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/Liliana.jpg" alt="Miguel Solis" />
+                  <h3>Liliana Guerrero Ibarra</h3>
+                  <p>Professor &amp; Researcher – UNAB Chile</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/Gerson.jpg" alt="Gerson Capador" />
+                  <h3>Gerson D. Capador Cruz</h3>
+                  <p>Professor &amp; Researcher – USTA Colombia</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/Pablo.jpeg" alt="Dominique Pincheira" />
+                  <h3>Pablo Schwarzenberg Riveros</h3>
+                  <p>Professor &amp; Researcher – UNAB Chile</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/gianina.jpg" alt="Gianina Garrido" />
+                  <h3>Gianina Garrido Silva</h3>
+                  <p>Professor &amp; Researcher – USTA Colombia</p>
+              </div>
+              <div class="member-card">
+                  <img src="Pictuares/members/David.jpg" alt="David Martinez" />
+                  <h3>David A. Martinez Vasquez</h3>
+                  <p>Professor &amp; Researcher – USTA Colombia</p>
+              </div>
+              
+            </section>
+
+            <h3>Students</h3>
+            <section class="team-grid">
+              
+              <div class="member-card">
+                  <img src="Pictuares/members/javi.jpg" alt="Javiera Vega" />
+                  <h3>Javiera Vega Lagos</h3>
+                  <p>Third-year student in Construction Engineering – UNAB</p>
+                </div>
+                
+                <div class="member-card">
+                  <img src="Pictuares/members/Castaño.jpeg" alt="Daniel Castaño" />
+                  <h3>Daniel Fernando Castaño Ortiz</h3>
+                  <p>Undergraduate student in Electronic Engineering – USTA Colombia, member of GED</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/diego.jpg" alt="Diego Lopez" />
+                  <h3>Diego Lopez Vera</h3>
+                  <p>Second-year student in Automation &amp; Robotics Engineering – UNAB, member of NERT</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/Nicolas.jpeg" alt="Elias Camblas" />
+                  <h3>Nicolás David Alfonso Rodríguez</h3>
+                  <p>Undergraduate student in Electronic Engineering – USTA Colombia, member of GED</p>
+                </div>
+              
+                <div class="member-card">
+                  <img src="Pictuares/members/kathy.jpg" alt="Katherine Rojas" />
+                  <h3>Katherine J. Rojas Romero</h3>
+                  <p>Third-year student in Industrial Engineering – UNAB</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/nico.jpg" alt="Nicolas " />
+                  <h3>Nicolas G. Martinez Contreras </h3>
+                  <p>Second-year student in Automation &amp; Robotics Engineering – UNAB, member of NERT</p>
+                </div>
+              
+                <div class="member-card">
+                  <img src="Pictuares/members/whitney.jpg" alt="Whitney" />
+                  <h3>Whitney A. Otaegui Adrian</h3>
+                  <p>Third-year Civil Computer Engineering student – UNAB</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/adrian.jpg" alt="Adrian" />
+                  <h3>Adrian E. Arévalo Passarotto</h3>
+                  <p>Third-year student in Automation &amp; Robotics Engineering – UNAB, member of NERT</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/juan.jpg" alt="Juan Rivera" />
+                  <h3>Juan A. Rivera Gutierrez</h3>
+                  <p>Undergraduate student in Electronic Engineering – USTA Colombia; on exchange at UNAB, member of GED &amp; NERT</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/topo.jpg" alt="Juan Avendaño" />
+                  <h3>Juan D. Avendaño Garzón</h3>
+                  <p>Undergraduate student in Electronic Engineering – USTA Colombia, member of GED</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/valentina.jpg" alt="Valentina" />
+                  <h3>Valentina Perez Fernandez</h3>
+                  <p>Undergraduate student in Electronic Engineering – USTA Colombia, member of GED</p>
+                </div>
+                <div class="member-card">
+                  <img src="Pictuares/members/juand.jpg" alt="Juan Baez" />
+                  <h3>Juan D. Báez Guerrero</h3>
+                  <p>Undergraduate student in Electronic Engineering – USTA Colombia, member of GED</p>
+                </div>
+            </section>
+        </div>
+
+    </section>
+
+    <!-- ================= ROBOCUP ================= -->
+    <section class="robocup" data-aos="fade-up">
+        <h2>RoboCup Participation</h2>
+        <p>Although this is the first official participation of <strong>AndesRobot Team</strong> in RoboCup, some of our members bring valuable experience from previous editions of the competition:</p>
+
+        <ul>
+            <li><strong>2014 RoboCup Small Size League:</strong> Participation by <em>Miguel A. Solis Cid</em>.</li>
+            <li><strong>2019 RoboCup Standard Platform League</strong> Participation by <em>Armando Mateus Rojas</em>.</li>
+            <li><strong>2025 RoboCup@Home </strong> Participation by <em>AndesRobot team</em>.</li>
+        </ul>
+        This accumulated experience inspires and strengthens our current multidisciplinary team as we face our first RoboCup together.
+    </section>
+
+    <!-- ================= PARTNER UNIVERSITIES ================= -->
+    <section class="partners" data-aos="fade-up">
+        <h2>Partner Universities</h2>
+
+        <div class="partner-grid">
+            <div class="partner-item">
+                <img src="Pictuares/Main/unab.png">
+                <p>Universidad Andrés Bello – Chile</p>
+            </div>
+
+            <div class="partner-item">
+                <img src="Pictuares/Main/usta.png">
+                <p>Universidad Santo Tomás – Colombia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>© 2025 AndesRobot Team | Developed by <strong>Reants </strong></p>
+    </footer>
+
+    <!-- JS -->
+    <script src="Scripts/scripts.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
+
+</body>
+</html>
