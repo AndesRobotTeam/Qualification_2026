@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Gallery - AndesRobot Team</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+  <header>
+    <h1>AndesRobot Team</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+    </nav>
+  </header>
+
+  <section class="video-gallery" data-aos="fade-up">
+    <h2>Video Gallery</h2>
+    <p>Explore our demo videos, project walkthroughs, and 3D robot prototypes.</p>
+
+    <div class="video-grid">
+
+      <div class="video-card">
+        <video controls>
+          <source src="../Videos/Mapeo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-description"></p>
+      </div>
+      <div class="video-card">
+        <video controls>
+          <source src="../Videos/Computer vision.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-description">Milo's participation in RoboCup 2025.</p>
+      </div>
+      <div class="video-card">
+        <video controls>
+          <source src="../Videos/Marta.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-description">This is the new robot Martha.</p>
+      </div>
+      <div class="video-card">
+        <video controls>
+          <source src="../Videos/Milo's construction.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-description">Milo's construction process for RoboCup 2025.</p>
+      </div>
+      <div class="video-card">
+        <video controls>
+          <source src="../Videos/MiloRobocup3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-description"></p>
+      </div>
+      <div class="video-card">
+        <video controls>
+          <source src="../Videos/Robocup2025.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-description">RoboCup 2025.</p>
+      </div>
+    </div>
+  </section>
+  <section id="instituciones" data-aos="fade-up">
+      <h2>Partner Universities</h2>
+      <div class="logos-instituciones">
+      <div class="institucion">
+          <img src="../Pictuares/Main/unab.png" alt="UNAB Chile" />
+          <p><strong> Andrés Bello University (Chile)</strong><br />Antonio Varas Campus, Santiago</p>
+      </div>
+      <div class="institucion">
+          <img src="../Pictuares/Main/usta.png" alt="USTA Colombia" />
+          <p><strong>Santo Tomas University (Colombia)</strong><br />Main Campus, Bogotá D.C.</p>
+      </div>
+      </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AndesRobot Team</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
